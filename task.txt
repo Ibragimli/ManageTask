@@ -1,0 +1,36 @@
+Tətbiqin Strukturu və Tablar
+1. Main Tab - Aktiv Tapşırıqlar (Hələ tamamlanmamış)
+
+-Bu tabda istifadəçi yalnız öz tapşırıqlarını görəcək.
+
+-Tapşırıqlar verilənlər bazasında status sahəsi ilə "İncomplete" olaraq qeyd olunacaq.
+
+-İstifadəçi bu tapşırıqları idarə edə biləcək, məsələn, tamamlanmış olaraq işarələyəcək.
+
+2. Tamamlanmış Tapşırıqlar Tabı
+
+-Bu tabda istifadəçi tamamlanmış tapşırıqları görəcək.
+
+-Tapşırıqlar verilənlər bazasında status sahəsi ilə "Complete" olaraq qeyd olunacaq.
+
+-İstifadəçi burada tamamlanmış tapşırıqlarını görə bilər, amma onları yenidən dəyişdirə bilməz.
+
+3. Yeni Tapşırıq CRUD (Create, Read, Update, Delete) Tabı
+
+-Bu tabda istifadəçi yeni tapşırıq yarada biləcək.
+
+-Tapşırıqların başlığını, təsvirini və statusunu qeyd etmək üçün sahələr olacaq.
+
+-İstifadəçi mövcud tapşırıqları düzəldə və ya silə biləcək.
+
+4. Statistikalar Tabı
+
+-Bu tabda istifadəçinin tapşırıqları ilə əlaqəli statistikalar göstəriləcək:
+
+-Tamamlanmış tapşırıqların sayı.
+
+-Aktiv tapşırıqların sayı.
+
+-İstifadəçinin ümumi tapşırıq yükü.
+
+-Həmçinin tamamlanma sürəti və ya digər analitik məlumatlar da buraya əlavə edilə bilər.
